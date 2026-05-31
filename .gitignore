@@ -1,0 +1,138 @@
+# =========================
+# System files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================
+# Editors / IDE
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.ipynb_checkpoints/
+
+
+# =========================
+# Python output / generated files
+# =========================
+
+output/
+outputs/
+results/
+generated/
+build/
+dist/
+
+*.log
+*.out
+
+
+# =========================
+# LaTeX auxiliary files
+# =========================
+
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# Keep final PDFs if you want to publish them
+# *.pdf
+
+
+# =========================
+# Archives / temporary packages
+# =========================
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+
+# =========================
+# Logs and temporary files
+# =========================
+
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+
+# =========================
+# Windows executables / compiled files
+# =========================
+
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+
+
+# =========================
+# C / C++ / CMake leftovers
+# =========================
+
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+compile_commands.json
+
+
+# =========================
+# Secrets / local config
+# =========================
+
+.env
+.env.*
+!.env.example
+config.local.*
+secrets.*
